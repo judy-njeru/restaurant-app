@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # restaurant-app
 
 ## Project setup
@@ -38,6 +37,4 @@ yarn run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
 # restaurant-app
->>>>>>> 495c65cd10b98b5203de60ba6bfa333284ef7fc4
