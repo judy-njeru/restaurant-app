@@ -5,7 +5,9 @@
         <b-col sm="8">
           <Carousel />
         </b-col>
-        <b-col sm="4">col-sm-4</b-col>
+        <b-col sm="4">
+          <OrderFlowBox class="order-flow-box"/>
+        </b-col>
       </b-row>
     </b-container>
     <!-- <HelloWorld /> -->
@@ -15,11 +17,20 @@
 <script>
 // @ is an alias to /src
 import Carousel from '@/components/Carousel.vue'
+import OrderFlowBox from '@/components/OrderFlowBox.vue'
 
 export default {
   name: 'home',
   components: {
-    Carousel
+    Carousel,
+    OrderFlowBox
   }
 }
 </script>
+
+<style lang="scss">
+  div.order-flow-box {
+    height: 100%;
+  }
+</style>
+
